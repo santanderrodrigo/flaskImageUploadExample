@@ -4,6 +4,16 @@ Esta es una aplicación simple de Flask que permite a los usuarios subir imágen
 
 ## Estructura del Proyecto
 
+```plaintext
+.
+├── app.py
+├── templates
+│   ├── index.html
+│   └── images.html
+└── static
+    └── uploads
+```
+
 - `app.py`: El archivo principal de la aplicación Flask.
 - `templates/index.html`: El archivo HTML para el formulario de subida.
 - `templates/images.html`: El archivo HTML para mostrar las imágenes subidas.
@@ -20,7 +30,7 @@ Esta es una aplicación simple de Flask que permite a los usuarios subir imágen
 2. Crea un entorno virtual y actívalo:
     ```sh
     python -m venv venv
-    source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+    venv\Scripts\activate
     ```
 
 3. Instala los paquetes necesarios:
